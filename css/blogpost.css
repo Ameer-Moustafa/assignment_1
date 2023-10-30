@@ -7,6 +7,16 @@
   box-sizing: border-box;
 }
 
+/* Universal Styles */
+
+.title__color {
+  color: #a4161a;
+}
+
+.text__color {
+  color: #d3d3d3;
+}
+
 /* Setting the background color */
 
 body {
@@ -16,15 +26,15 @@ body {
 /* Header Styles */
 
 .header__banner {
-  position: relative;
   margin-top: 7rem;
+  margin-left: 15rem;
   left: 190px;
   width: 30%;
 }
 
 .header__title {
   width: 40%;
-  color: #a4161a;
+
   font-size: 3rem;
   position: relative;
   left: 50%;
@@ -32,7 +42,6 @@ body {
 }
 
 .header__subheading {
-  color: #d3d3d3;
   margin-top: 0.8rem;
   margin-left: 1.3rem;
   font-size: 1.5rem;
@@ -46,14 +55,40 @@ body {
 .blogpost {
   width: 80%;
   position: relative;
-  left: 10%;
+  left: 12%;
 }
 
 .blogpost__title {
   margin-bottom: 0.8rem;
-  color: #a4161a;
 }
 
 .blogpost__subheading {
-  color: #d3d3d3;
+  text-align: center;
+}
+
+.blogpost__content {
+  width: 80%;
+  margin-bottom: 9rem;
+  font-size: 1rem;
+}
+
+/* Blogpost imagebox styles */
+.blogpost__imagebox {
+  width: 70%;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.blogpost__imagebox__title {
+  width: 20%;
+  position: relative;
+  top: 99px;
+  left: 5%;
+}
+
+.blogpost__imagebox__figure {
+  width: 60%;
+  position: relative;
+  left: 30%;
+  top: -200px;
 }
