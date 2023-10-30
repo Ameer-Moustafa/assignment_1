@@ -17,12 +17,13 @@ body {
 
 .header__banner {
   position: relative;
-  top: 100px;
+  margin-top: 7rem;
   left: 190px;
   width: 30%;
 }
 
 .header__title {
+  width: 40%;
   color: #a4161a;
   font-size: 3rem;
   position: relative;
@@ -38,4 +39,21 @@ body {
   position: relative;
   left: 54%;
   bottom: 385px;
+}
+
+/* Blogpost Styles */
+
+.blogpost {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.blogpost__title {
+  margin-bottom: 0.8rem;
+  color: #a4161a;
+}
+
+.blogpost__subheading {
+  color: #d3d3d3;
 }
