@@ -95,19 +95,20 @@
 /* Fight Results Styles */
 
 .results {
+  margin: 0 auto;
   margin-bottom: 3rem;
 }
 
-.results__image {
-  margin-left: 10rem;
+.results__title {
+  margin-left: 25rem;
 }
 
-.results__title {
-  text-align: center;
+.results__image {
+  margin-left: 19rem;
 }
 
 .results__list li {
   list-style: none;
   margin-top: 2rem;
-  margin-left: 18rem;
+  margin-left: 29rem;
 }
