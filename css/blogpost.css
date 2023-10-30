@@ -39,13 +39,3 @@ body {
   left: 54%;
   bottom: 385px;
 }
-
-/* Blogpost Styles */
-
-.blogpost {
-  margin-top: 2rem;
-}
-
-.blogpost__title {
-  color: #a4161a;
-}
